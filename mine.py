@@ -3,9 +3,6 @@ from ursina.prefabs.first_person_controller import FirstPersonController
 
 mine = Ursina()
 
-audio = Audio("assets/music.ogg", autoplay = True, loop = True, auto_destroy = False)
-audio.play()
-
 class Block(Button):
     def __init__(self, position = (0, 0, 0)):
         super().__init__(
